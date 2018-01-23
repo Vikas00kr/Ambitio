@@ -33,6 +33,15 @@
   }
 }
 
+@media (max-width:360px) {
+  .absAlign{
+    position:relative;
+    left:-50%;
+    margin-top:-50%;
+  }
+}
+
+
 @media (max-width:1199px) {
   .alignC{
     position:absolute;
@@ -81,6 +90,14 @@
   background-color:#3c3734;
 }
 
+
+@media (max-width:360px) {
+.btn-flat{
+  font-size:14pt;
+}
+}
+
+
 .hiddenOnStart{
   display:none;
 }
@@ -102,6 +119,19 @@
   height:60px;
   border-radius:0;
 }
+
+@media (max-width:360px) {
+#subscribeForm input.btn.btn-lg, #subscribeForm input.btn.btn-lg:focus ,#subscribeForm button.btn{
+font-size: 12px;
+}
+}
+
+@media (max-width:767px) {
+#subscribeForm input.btn.btn-lg, #subscribeForm input.btn.btn-lg:focus ,#subscribeForm button.btn{
+font-size: 12px;
+}
+}
+
 
 .addBorderBottom{
   border-bottom:1px solid white;
@@ -147,6 +177,13 @@
   font-weight:bolder !important;
 }
 
+@media (max-width:360px) {
+.galleryLink{
+  font-size:18px;
+}
+}
+
+
 .well{
   min-height:20px;
   padding-top:2px;
@@ -174,5 +211,161 @@
 .paddingOffsetTB{
   padding-top:0px;
   padding-bottom:35px;
+}
+
+
+
+/* Herobackground*/
+div.jumbotron.hero-technology{
+  color:#fff;
+  text-align:center;
+  background:url('hero-background-technology.jpg');
+  background-size:cover;
+  background-position:center;
+  padding-top:100px;
+  padding-bottom:100px;
+}
+
+h1.hero-title, h2.hero-title, h3.hero-title{
+  text-shadow:0 2px 2px rgba(0,0,0,0.3);
+  color:#fff;
+  font-weight:500;
+}
+
+p.hero-subtitle{
+  max-width:600px;
+  margin:25px auto;
+  padding:10px 15px;
+  background-color:rgba(0,0,0,0.1);
+  color:#fff;
+  text-shadow:0 1px 1px rgba(0,0,0,0.7);
+  font-weight:500;
+}
+
+
+
+
+
+
+/* Pretty footer */
+
+#contactUs footer{
+  padding:10px 0px 48px 0px;
+  margin:50px 0px 30px 0px;
+}
+
+footer{
+  background-color:#3c3734;
+  box-shadow:0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing:border-box;
+  width:100%;
+  text-align:left;
+  font:bold 16px sans-serif;
+  padding:55px 50px 0px 50px;
+  margin-top:80px;
+  bottom:0;
+  color:#fff;
+}
+
+.footer-navigation h3{
+  margin:0;
+  font:normal 36px Raleway;
+  margin-bottom:20px;
+  color:#fff;
+}
+
+.footer-navigation h3 a{
+  text-decoration:none;
+  color:#fff;
+}
+
+.footer-navigation h3 span{
+  color:#5383d3;
+}
+
+.footer-navigation p.links a{
+  color:#fff;
+  text-decoration:none;
+}
+
+.footer-navigation p.company-name{
+  color:#8f9296;
+  font-size:14px;
+  font-weight:normal;
+  margin-top:20px;
+}
+
+@media (max-width:767px) {
+  .footer-contacts{
+    margin:30px 0;
+  }
+}
+
+.footer-contacts p{
+  display:inline-block;
+  color:#ffffff;
+  vertical-align:middle;
+}
+
+.footer-contacts p a{
+  color:#5383d3;
+  text-decoration:none;
+}
+
+.fa.footer-contacts-icon{
+  background-color:#33383b;
+  color:#fff;
+  font-size:18px;
+  width:38px;
+  height:38px;
+  border-radius:50%;
+  text-align:center;
+  line-height:38px;
+  margin:10px 15px 10px 0;
+}
+
+span.new-line-span{
+  display:block;
+  font-weight:normal;
+  display:block;
+  font-weight:normal;
+  font-size:14px;
+  line-height:2;
+}
+
+.footer-about h4{
+  display:block;
+  color:#fff;
+  font-size:14px;
+  font-weight:bold;
+  margin-bottom:20px;
+}
+
+.footer-about p{
+  line-height:20px;
+  color:#92999f;
+  font-size:13px;
+  font-weight:normal;
+  margin:0;
+}
+
+div.social-links{
+  margin-top:20px;
+  color:#fff;
+}
+
+.social-links a{
+  display:inline-block;
+  width:35px;
+  height:35px;
+  cursor:pointer;
+  background-color:#33383b;
+  border-radius:2px;
+  font-size:20px;
+  color:#ffffff;
+  text-align:center;
+  line-height:35px;
+  margin-right:5px;
+  margin-bottom:5px;
 }
 
