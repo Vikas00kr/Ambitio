@@ -1,11 +1,16 @@
+#contactUs footer{
+  padding:10px 0px 48px 0px;
+  margin:50px 0px 30px 0px;
+}
+
 footer{
-  background-color:#292c2f;
+  background-color:#3c3734;
   box-shadow:0 1px 1px 0 rgba(0, 0, 0, 0.12);
   box-sizing:border-box;
   width:100%;
   text-align:left;
   font:bold 16px sans-serif;
-  padding:55px 50px;
+  padding:55px 50px 0px 50px;
   margin-top:80px;
   bottom:0;
   color:#fff;
@@ -13,7 +18,7 @@ footer{
 
 .footer-navigation h3{
   margin:0;
-  font:normal 36px Cookie, cursive;
+  font:normal 36px Raleway;
   margin-bottom:20px;
   color:#fff;
 }
